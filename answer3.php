@@ -46,21 +46,19 @@
     
             } 
         } else if($int < 0){ // if $int is a negative number
-
             $int = abs($int);
 
             for ($i=2;$i<=$int+2;$i++) {
                 $fibArr[$i] = $fibArr[$i-1]+$fibArr[$i-2];
 
 
-                if ($fibArr[$i] > $int) 
+                if ($fibArr[$i] > $int) {
                     if($i&1){                   // if $i is odd so the value will be positive else is negative
-                        var_dump($i);
                         return $fibArr[$i];
                     } else {
-                        var_dump($i);
                         return -$fibArr[$i];
-                    }    
+                    } 
+                }
             } 
         } else if( $int == 1 || $int == 2) {
             return $fibArr[1] + $int;
