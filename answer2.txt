@@ -1,0 +1,6 @@
+->What is the computational complexity of your answer in Question 1? 
+        The computational complexity was principaly to remenber the PHP fonction
+
+->Can you explain why?
+        It's a long time i don't use this PHP function so i was need a little time for remenber it. i was know the function was exist and normaly i use google for find it but in the rule it was said to avoid using internet.
+        
