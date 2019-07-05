@@ -1,4 +1,5 @@
 ->Please explain what is the bug in the following Javascript function, and how to correct it.
-        " function(x) { return x + i; } " the bug is in this ligne. The function don"t know what is "i" we need to declare it input
-        correction : 
+        " function(x) { return x + i; } " the bug is in this ligne. The function don"t know what is "i" we need to declare it in input
+        
+        --correction : 
         " function(x, i) { return x + i; } "
